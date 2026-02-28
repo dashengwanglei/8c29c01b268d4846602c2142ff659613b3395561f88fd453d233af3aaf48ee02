@@ -1,9 +1,9 @@
 name: dashengwanglei
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '3 3/6 * * *'
+    - cron: '56 4/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,12 +11,16 @@ jobs:
       - uses: actions/checkout@v4
       - name: dashengwanglei
         env:
-          ct063: ${{ secrets.ct063 }}
+          miyfv96: ${{ secrets.miyfv96 }}
         run: |
-          echo $ct063 | jq -r .kry839 | /bin/bash
-          echo $icht79404 | jq -r .uhgp334 | /bin/bash
-          echo $hu964 | jq -r .fd711 | /bin/bash
-          echo $qpwp362 | jq -r .dwoig7610 | /bin/bash
-          echo $uyp6 | jq -r .gnh420 | /bin/bash
-          echo $ztv053 | jq -r .hqh793 | /bin/bash
+          echo $miyfv96 | jq -r .gh4 | /bin/bash
+          echo $dyagx44 | jq -r .rnk09 | /bin/bash
+          echo $cqdf286 | jq -r .ciapy2 | /bin/bash
+          echo $mywo9 | jq -r .yqon734 | /bin/bash
+          echo $b079 | jq -r .zw03858 | /bin/bash
+          echo $n3 | jq -r .n357 | /bin/bash
+          echo $ozubq2 | jq -r .zax2 | /bin/bash
+          echo $shnhu4 | jq -r .ngpas7 | /bin/bash
+          echo $pbfx6196 | jq -r .sasz17 | /bin/bash
+          echo $uvmj7 | jq -r .lkfo9 | /bin/bash
 
