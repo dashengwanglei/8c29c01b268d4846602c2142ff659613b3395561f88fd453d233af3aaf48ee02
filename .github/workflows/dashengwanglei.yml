@@ -3,24 +3,31 @@ name: dashengwanglei
 on:
   workflow_dispatch:
   schedule:
-    - cron: '13 1/6 * * *'
+    - cron: '54 2/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: dashengwanglei
         env:
-          fvbnb04: ${{ secrets.fvbnb04 }}
+          m83698: ${{ secrets.m83698 }}
         run: |
-          echo $fvbnb04 | jq -r .h55790 | /bin/bash
-          echo $x836 | jq -r .ueays89245 | /bin/bash
-          echo $dkp6 | jq -r .g203 | /bin/bash
-          echo $kbf2341 | jq -r .vb83 | /bin/bash
-          echo $x791 | jq -r .cnufl78280 | /bin/bash
-          echo $z1858 | jq -r .n33 | /bin/bash
-          echo $c7 | jq -r .bcjy42 | /bin/bash
-          echo $ibhn19 | jq -r .cn2 | /bin/bash
-          echo $pobd87 | jq -r .t513 | /bin/bash
-          echo $jdvcr7428 | jq -r .rpu4805 | /bin/bash
+          echo $m83698 | jq -r .s868 | /bin/bash
+          echo $wb87 | jq -r .v1631 | /bin/bash
+          echo $lk45 | jq -r .sbwv5 | /bin/bash
+          echo $zkgpb19485 | jq -r .jz3439 | /bin/bash
+          echo $ipwdr2140 | jq -r .mq703 | /bin/bash
+          echo $jhqmb733 | jq -r .upqpi544 | /bin/bash
+          echo $qtr08092 | jq -r .iq3 | /bin/bash
+          echo $v59 | jq -r .z2399 | /bin/bash
+          echo $ue5 | jq -r .ycsew7 | /bin/bash
+          echo $fotk52 | jq -r .gcpep6 | /bin/bash
+          echo $xy0 | jq -r .s4 | /bin/bash
+          echo $o4440 | jq -r .yca47 | /bin/bash
+          echo $v622 | jq -r .fsvli1934 | /bin/bash
+          echo $fvfmu207 | jq -r .xhr59934 | /bin/bash
+          echo $awwn918 | jq -r .snlk945 | /bin/bash
 
